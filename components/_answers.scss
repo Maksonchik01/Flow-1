@@ -1,0 +1,94 @@
+.answers{
+    margin-top: 156px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 24px;
+padding: 64px 96px;
+background: var(--background-beige);
+}
+.answers-subtitle{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0em;
+color: var(--content-primary);
+}
+.answers-subtitle::before {
+    display: inline-block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+background: var(--background-green);
+margin-right: 8px;
+}
+.answers-subtitle::after {
+    display: block;
+    content: "";
+border-bottom: 1px solid var(--background-pressed);
+padding: 0px 0px 16px;
+}
+.answers-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+.answers-box-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.answers-box-left-title{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 62px;
+line-height: 110%;
+letter-spacing: -0.03em;
+color: var(--content-primary);
+max-width: 440px;
+}
+.answers-box-left-btn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 133%;
+letter-spacing: 0em;
+color: var(--content-primary);
+border: 1px solid var(--background-dark-green);
+border-radius: 200px;
+padding: 16px 24px;
+width: 165px;
+height: 56px;
+background: transparent;
+}
+.answers-box-right-list{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+.answers-box-right-list-item{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.answers-box-right-list-item-title{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 133%;
+letter-spacing: 0em;
+color: var(--content-primary);
+}
+.answers-box-right-list-item-text{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0em;
+color: var(--content-secondary);
+max-width: 550px;
+}
