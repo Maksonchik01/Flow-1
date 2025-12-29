@@ -1,0 +1,28 @@
+.commitment-title{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 76px;
+line-height: 105%;
+letter-spacing: -0.03em;
+text-align: center;
+margin: 0 auto;
+color: var(--content-primary);
+max-width: 900px;
+margin-top: 140px;
+}
+.commitment-btn{
+    display: block;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 133%;
+letter-spacing: 0em;
+color: var(--content-reversed);
+border-radius: 200px;
+padding: 16px 24px;
+width: 149px;
+height: 56px;
+background: var(--background-dark-green);
+margin: 0 auto;
+margin-top: 64px;
+}

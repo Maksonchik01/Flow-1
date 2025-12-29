@@ -1,0 +1,42 @@
+.about{
+    margin-top: 104px;
+    background-image: url(/img/Lines.png);
+}
+.about-title{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 62px;
+line-height: 110%;
+letter-spacing: -0.03em;
+text-align: center;
+color: var(--content-primary);
+margin-bottom: 32px;
+}
+.about-text{
+    margin: 0 auto;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: -0.01em;
+text-align: center;
+color: var(--content-primary);
+max-width: 720px;
+}
+.about-btn{
+    display: block;
+    margin: 0 auto;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 133%;
+letter-spacing: 0em;
+color: var(--content-primary);
+border: 1px solid var(--background-dark-green);
+border-radius: 200px;
+padding: 16px 24px;
+width: 135px;
+height: 56px;
+background: transparent;
+margin-top: 40px;
+}
