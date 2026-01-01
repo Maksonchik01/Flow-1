@@ -2,6 +2,11 @@
     display: flex;
     justify-content: space-between;
     margin-top: 104px;
+    @media (max-width: 1000px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 .energy-box-left-title{
     font-family: var(--font-family);
@@ -12,6 +17,9 @@ letter-spacing: -0.01em;
 color: var(--content-primary);
 max-width: 450px;
 margin-bottom: 88px;
+  @media (max-width: 1000px){
+       text-align: center;
+    }
 }
 .energy-box-left-list{
     display: flex;
@@ -26,6 +34,11 @@ font-size: 48px;
 line-height: 125%;
 letter-spacing: -0.03em;
 color: var(--content-low-contrast);
+max-width: 246px;
+ @media (max-width: 1000px){
+       text-align: center;
+       margin: 0 auto;
+    }
 }
 .energy-box-left-list-item-box{
     display: flex;
@@ -40,6 +53,11 @@ line-height: 125%;
 letter-spacing: -0.03em;
 color: var(--content-primary);
 margin-bottom: 32px;
+max-width: 246px;
+ @media (max-width: 1000px){
+       text-align: center;
+       margin: 0 auto;
+    }
 }
 .energy-box-left-list-item-box-title-bl::after {
     display: block;
@@ -47,6 +65,9 @@ margin-bottom: 32px;
     border-bottom: 1px solid var(--background-pressed);
     width: 488px;
     margin-top: 16px;
+     @media (max-width: 750px){
+       display: none;
+    }
 }
 .energy-box-left-list-item-box-text{
     font-family: var(--font-family);
@@ -57,6 +78,9 @@ letter-spacing: 0em;
 color: var(--content-secondary);
 max-width: 430px;
 margin-bottom: 16px;
+ @media (max-width: 1000px){
+       text-align: center;
+    }
 }
 .energy-box-left-list-item-box-link{
     font-family: var(--font-family);
@@ -67,4 +91,11 @@ letter-spacing: 0em;
 
 color: var(--background-dark-green);
 text-decoration: none;
+ @media (max-width: 1000px){
+       text-align: center;
+    }
+}
+.energy-box-right-img{
+    display: block;
+    width: 100%;
 }

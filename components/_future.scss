@@ -33,6 +33,12 @@ display: block;
 .future-box{
     display: flex;
     gap: 240px;
+    @media (max-width: 940px) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
 }
 .future-box-left-title{
     font-family: var(--font-family);
@@ -43,6 +49,12 @@ letter-spacing: -0.03em;
 color: var(--content-primary);
 max-width: 592px;
 margin-bottom: 24px;
+  @media (max-width: 940px) {
+        text-align: center;
+    }
+    @media (max-width: 400px) {
+        font-size: 48px;
+    }
 }
 .future-box-left-text{
     font-family: var(--font-family);
@@ -52,16 +64,22 @@ line-height: 144%;
 letter-spacing: 0em;
 color: var(--content-secondary);
 max-width: 532px;
+@media (max-width: 940px) {
+        text-align: center;
+    }
 }
 .future-box-right-list{
     display: flex;
     flex-direction: column;
     gap: 64px;
+    flex-wrap: wrap;
+
 }
 .future-box-right-list-item{
     display: flex;
     flex-direction: column;
     gap: 8px;
+ 
 }
 .future-box-right-list-item-title{
     font-family: var(--font-family);
@@ -70,6 +88,9 @@ font-size: 48px;
 line-height: 125%;
 letter-spacing: -0.03em;
 color: var(--content-primary);
+@media (max-width: 940px) {
+        text-align: center;
+    }
 }
 .future-box-right-list-item-text{
     font-family: var(--font-family);
@@ -78,4 +99,7 @@ font-size: 18px;
 line-height: 144%;
 letter-spacing: 0em;
 color: var(--content-secondary);
+@media (max-width: 940px) {
+        text-align: center;
+    }
 }

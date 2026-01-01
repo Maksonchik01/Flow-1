@@ -9,6 +9,9 @@ margin: 0 auto;
 color: var(--content-primary);
 max-width: 900px;
 margin-top: 140px;
+@media (max-width: 500px) {
+    font-size: 58px;
+}
 }
 .commitment-btn{
     display: block;

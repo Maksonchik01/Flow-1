@@ -27,13 +27,19 @@ margin-bottom: 136px;
     justify-content: center;
     gap: 148px;
     flex-wrap: wrap;
+      @media (max-width: 560px) {
+        flex-direction: column;
+    }
 }
 .experts-list-item{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: calc((100% - (148px * 2)) / 3);;
+    width: calc((100% - (148px * 2)) / 3);
+    @media (max-width: 1100px) {
+         width: calc((100% - (148px * 2)) / 2);
+    }
 }
 .experts-list-item-box{
     display: block;
