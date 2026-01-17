@@ -54,9 +54,22 @@ letter-spacing: -0.03em;
 color: var(--content-primary);
 margin-bottom: 32px;
 max-width: 246px;
+position: relative;
  @media (max-width: 1000px){
        text-align: center;
        margin: 0 auto;
+    }
+}
+.energy-box-left-list-item-box-title-bl::before {
+    display: block;
+    content: "";
+position: absolute;
+bottom: 0;
+    border-bottom: 2px solid var(--content-primary);
+    width: 278px;
+    margin-top: 16px;
+     @media (max-width: 750px){
+       display: none;
     }
 }
 .energy-box-left-list-item-box-title-bl::after {

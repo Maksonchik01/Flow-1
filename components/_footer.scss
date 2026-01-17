@@ -82,7 +82,20 @@ display: block;
 }
 .footer-top-right {
   position: relative;
+  z-index: 1;
 }
+// .footer-top-right::after {
+//   content: "";
+//   background: var(--background-beige);
+//   min-width: 374px;
+//   max-width: 375px;
+//   height: 452px;
+//   position: absolute;
+//   top: 0;
+//   right: -150px;
+//   z-index: -1;
+
+// }
 .footer-top-right-border-span {
   display: block;
   border-radius: 500px;
